@@ -1,0 +1,95 @@
+/*This is the container for the page*/
+.container {
+	background-image: url("../images/background.png");
+}
+/*This is the header for the page*/
+.header {
+	color: white;
+	padding: 50px;
+	background-color: black;
+	font-size: 50px;
+	width: 40%;
+	height: 15%;
+	
+}
+/*This is the rules section of the page*/
+
+.rules {
+	padding: 10%;
+	color: white;
+	background-color: #404748;
+	font-size: 100%;
+	width: 25%;
+	height: 30%;
+	
+	
+}
+/*This is the board section of the page*/
+.board {
+	padding:10px;
+	color: white;
+	background-color: black;
+	width: 25%;
+	height:15%;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
+	
+}
+/*This is the totals section of the page*/
+.totals{
+	padding 10%;
+	background-color: Orange;
+	width:11%;
+	height: 15%;
+	margin-top: 0.5%
+}
+/*These are the gems*/
+.gems{
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+ .gem{
+	width:70px;
+	height:70px;
+	margin:10px;
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	}
+
+.o{
+	background-image: url("../images/gem1.png");
+	background-size: cover;
+	height:60px;
+	width:60px;
+}
+
+.m {
+	background-image: url("../images/gem2.png");
+	background-size: cover;
+	height:60px;
+	width:60px;
+}
+
+.q{
+	background-image: url("../images/gem3.png");
+	background-size: cover;
+	height:60px;
+	width:60px;
+}
+
+.r{
+	background-image: url("../images/gem4.png");
+	background-size: cover;
+	height:60px;
+	width:60px;
+}
+
+/*This is the number in the gems that is hidden*/
+.gem p{
+	display: none;
+}
